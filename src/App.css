@@ -1,2 +1,95 @@
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: center;
+    margin-top: 12rem;
+}
 
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.hero p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* position: relative; */
+    border-radius: 16px;
+    box-shadow: 8px 8px 46px rgba(0, 0, 0, 0.46);
+}
+
+.body {
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.headline p {
+    font-size: 1.2rem;
+}
+
+.calculator {
+    background-color: white !important;
+    width: 75%;
+    margin-bottom: 12rem;
+    padding: 2rem;
+    border-radius: 16px;
+    border: 2px #DFDAD2 solid;
+}
+
+.breakdown {
+    margin-top: 4rem;
+    background-color: #F5EFEA;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    border: 2px #C38292 dashed;
+}
+
+.lengthWidth {
+    display: grid;
+}
+  
+.lengthWidth input {
+    width: 100%;
+}
+
+.usedLengthWidth {
+    display: grid;
+}
+
+.costPerInch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    opacity: .16;
+    margin: 1rem 0;
+}
+
+.costPerItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.costPerItem h3 {
+    color: #C38292;
+}
